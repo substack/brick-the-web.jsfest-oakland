@@ -1,0 +1,18 @@
+.rainbow {
+  font-size: 72px;
+  background-image: -webkit-gradient(linear, left top, right top,
+    color-stop(0, #f22), color-stop(0.125, #f2f), color-stop(0.25, #22f),
+    color-stop(0.325, #2ff), color-stop(0.5, #2f2),
+    color-stop(0.5, #2ff), color-stop(0.625, #2f2), color-stop(0.75, #2f2),
+    color-stop(0.825, #ff2), color-stop(1, #f22)
+  );
+  background-image: gradient(linear, left top, right top,
+    color-stop(0, #f22), color-stop(0.125, #f2f), color-stop(0.25, #22f),
+    color-stop(0.325, #2ff), color-stop(0.5, #2f2),
+    color-stop(0.5, #2ff), color-stop(0.625, #2f2), color-stop(0.75, #2f2),
+    color-stop(0.825, #ff2), color-stop(1, #f22)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
